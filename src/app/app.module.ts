@@ -3,6 +3,9 @@ import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
+import { NewsService } from './news.service'
+import { HttpClient, HttpClientModule } from '@angular/common/http'
+
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
 
@@ -19,12 +22,16 @@ import { NewsComponent } from './news/news.component';
     NewsComponent
   ],
   imports: [
+    HttpClientModule,
     BrowserModule,
     FormsModule,
     HttpModule,
     AppRoutingModule
   ],
-  providers: [],
+  providers: [
+    NewsService,
+    HttpClient
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

@@ -1,30 +1,33 @@
 import { Component, OnInit } from '@angular/core';
+import { NewsService} from '../news.service';
+import { ActivatedRoute } from '@angular/router';
 
 @Component({
   selector: 'app-news',
   templateUrl: './news.component.html',
   styleUrls: ['./news.component.css']
 })
+
 export class NewsComponent implements OnInit {
 
   backendUrl = 'http://localhost:3000/news/'
-  currentCardIndex = 1
+  currentCardIndex:number = +this.activatedRoute.snapshot.params['id']
 
-  constructor() {}
+  public card:any;
 
-  loadCard(cardIndex){
-    fetch(this.currentCardIndex + 1)
-      .then(function(response) {
-        return console.log(response);
-      })
+  fetchCard(id) {
+    this.newsService.get(this.backendUrl + id).then((response) => {
+      this.card = response;
+    })
   }
 
-  randomNumber(min, max){
-    Math.floor((Math.random() * max) + min);
-  }
+  constructor(
+    private newsService: NewsService,
+    private activatedRoute: ActivatedRoute
+  ) {}
 
   ngOnInit() {
-    this.loadCard(1);
+    this.fetchCard(this.currentCardIndex);
   }
 
 }
