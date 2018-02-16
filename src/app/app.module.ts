@@ -13,6 +13,8 @@ import { AppRoutingModule } from './app-routing.module';
 import { StartComponent } from './start/start.component';
 import { SettingsComponent } from './settings/settings.component';
 import { NewsComponent } from './news/news.component';
+import { HeaderComponent } from './header/header.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +22,9 @@ import { NewsComponent } from './news/news.component';
     AppComponent,
     StartComponent,
     SettingsComponent,
-    NewsComponent
+    NewsComponent,
+    HeaderComponent,
+    FooterComponent
   ],
   imports: [
     HttpClientModule,
