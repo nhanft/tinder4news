@@ -1,13 +1,8 @@
-
-<section *ngIf="card" class="hero is-fullheight is-black" [ngStyle]="{'background-image': 'url(/assets/img/' + card.title_img + ')', 'background-size': 'cover'}">
-    <div class="hero-body">
-      <div class="container has-text-centered">
-        <h1 class="title">
-          {{card.title}}
-        </h1>
-        <h2 class="subtitle">
-          {{card.company}}
-        </h2>
-      </div>
-    </div>
-  </section>
+<div *ngIf="card" [ngStyle]="{'background-image': 'url(/assets/img/' + card.title_img + ')', 'background-repeat': 'no-repeat'}">
+  <h1 class="title">
+    {{card.title}}
+  </h1>
+  <h2 class="subtitle">
+    {{card.company}}
+  </h2>
+</div>

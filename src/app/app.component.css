@@ -1,0 +1,14 @@
+.navbar {
+    background-color: #1D272E;
+}
+
+.level {
+    height: 50px;
+    background-color: #1D272E;
+    padding: 5px;
+}
+
+.rounded {
+    border-radius:50%;
+    border: 2px solid white;
+}
