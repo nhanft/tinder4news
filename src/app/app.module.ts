@@ -8,13 +8,15 @@ import { CardComponent } from './card/card.component';
 import { AppRoutingModule } from './app-routing.module';
 
 import { SettingsComponent } from './settings/settings.component';
+import { NewsComponent } from './news/news.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    SettingsComponent
+    SettingsComponent,
     AppComponent,
-    CardComponent
+    CardComponent,
+    NewsComponent
   ],
   imports: [
     BrowserModule,

@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { CardComponent } from 'app/card/card.component';
+import { NewsComponent } from 'app/news/news.component';
 
 
 @Component({
