@@ -12,7 +12,7 @@ export class NewsDetailsComponent implements OnInit {
   backendUrl = 'http://localhost:3000/news/'
   currentCardIndex:number = +this.activatedRoute.snapshot.params['id']
   public card:any;
-  
+
   constructor(
     private newsService: NewsService,
     private activatedRoute: ActivatedRoute
