@@ -7,9 +7,24 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NewsComponent implements OnInit {
 
-  constructor() { }
+  backendUrl = 'http://localhost:3000/news/'
+  currentCardIndex = 1
+
+  constructor() {}
+
+  loadCard(cardIndex){
+    fetch(this.currentCardIndex + 1)
+      .then(function(response) {
+        return console.log(response);
+      })
+  }
+
+  randomNumber(min, max){
+    Math.floor((Math.random() * max) + min);
+  }
 
   ngOnInit() {
+    this.loadCard(1);
   }
 
 }
