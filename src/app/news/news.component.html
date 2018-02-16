@@ -1,21 +1,6 @@
 <section class="hero is-fullheight">
 
-  <div class="hero-head">
-    <nav class="level is-mobile">
-      <p class="level-item has-text-centered">
-        <a class="link is-info">
-          <img src="/assets/img/icons/Filter.svg" height="24px" width="24px">
-        </a>
-      </p>
-      <p class="level-item has-text-centered">
-        <img src="/assets/img/finder_logo_small.png" alt="" style="height: 24px;">
-      </p>
-      <p class="level-item has-text-centered">
-          <img class="rounded" src="/assets/img/handy_mandy.jpg" height="24px" width="24px">
-      </p>
-    </nav>
-  </div>
-
+  <app-header></app-header>
 
   <div *ngIf="card"
        class="hero-body"
@@ -35,29 +20,6 @@
       </div>
   </div>
 
-    <div class="hero-foot">
-        <div class="tabs is-fullwidth">
-          <ul>
-            <li class="is-active">
-              <a>
-                <span class="icon"><i class="fas fa-image"></i></span>
-                <span>Pictures</span>
-              </a>
-            </li>
-            <li>
-              <a>
-                <span class="icon"><i class="fas fa-music"></i></span>
-                <span>Music</span>
-              </a>
-            </li>
-            <li>
-              <a>
-                <span class="icon"><i class="fas fa-film"></i></span>
-                <span>Videos</span>
-              </a>
-            </li>
-          </ul>
-        </div>
-    </div>
+  <app-footer></app-footer>
 
-  </section>
+</section>
