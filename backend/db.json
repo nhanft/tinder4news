@@ -1,0 +1,32 @@
+{
+  "news": [
+    {
+      "id": 1,
+      "source_url": "https://news.microsoft.com/de-de/features/unsere-vision-einer-neuen-arbeitswelt/",
+      "title": "Unsere Vision einer neuen Arbeitswelt",
+      "title_img": "dummy.jpg",
+      "company": "Microsoft",
+      "logo": "dummy.jpg"
+    },
+    {
+      "id": 2,
+      "source_url": "https://www.otto.de/unternehmen/de/newsroom/snippets/2017/Tag-der-Jogginghose.php",
+      "title": "Tag der Jogginghose: Wer kauft sie? Wer zahlt wie viel?",
+      "title_img": "dummy.jpg",
+      "company": "OTTO",
+      "logo": "dummy.jpg"
+    },
+    {
+      "id": 3,
+      "source_url": "https://www.pfizer.de/gesundheit/metastasierter-brustkrebs/",
+      "title": "Wir sehen beeindruckende Fortschritte in der Krebsforschung",
+      "title_img": "dummy.jpg",
+      "company": "pfizer",
+      "logo": "dummy.jpg"
+    }
+  ],
+  "profile": {
+    "name": "Handy Mandy",
+    "image": "http://localhost:4200/assets/img/handy_mandy_RAW.jpg"
+  }
+}
