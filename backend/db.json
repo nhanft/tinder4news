@@ -6,7 +6,7 @@
       "title": "Unsere Vision einer neuen Arbeitswelt",
       "title_img": "news_head_1.jpg",
       "company": "Microsoft",
-      "logo": "dummy.jpg"
+      "logo": "logo_1.png"
     },
     {
       "id": 2,
@@ -14,7 +14,7 @@
       "title": "Tag der Jogginghose: Wer kauft sie? Wer zahlt wie viel?",
       "title_img": "news_head_2.jpg",
       "company": "OTTO",
-      "logo": "dummy.jpg"
+      "logo": "logo_2.png"
     },
     {
       "id": 3,
@@ -22,11 +22,11 @@
       "title": "Wir sehen beeindruckende Fortschritte in der Krebsforschung",
       "title_img": "news_head_3.jpg",
       "company": "pfizer",
-      "logo": "dummy.jpg"
+      "logo": "logo_3.png"
     }
   ],
   "profile": {
     "name": "Handy Mandy",
-    "image": "http://localhost:4200/assets/img/handy_mandy_RAW.jpg"
+    "image": "handy_mandy.jpg"
   }
 }
