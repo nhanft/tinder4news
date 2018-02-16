@@ -1,5 +1,5 @@
-<section class="hero is-fullheight">    
-  
+<section class="hero is-fullheight">
+
   <div class="hero-head">
     <nav class="level is-mobile">
       <p class="level-item has-text-centered">
@@ -15,19 +15,21 @@
       </p>
     </nav>
   </div>
-  
-  
-  <div class="hero-body" [ngStyle]="{'background-image': 'url(/assets/img/' + card.title_img + ')', 'background-repeat': 'no-repeat'}">
-      <div *ngIf="card">
+
+
+  <div *ngIf="card"
+       class="hero-body"
+       [ngStyle]="{'background-image': 'url(/assets/img/' + card.title_img + ')', 'background-repeat': 'no-repeat'}">
+      <div class="container">
         <h1 class="title">
           {{card.title}}
         </h1>
         <h2 class="subtitle">
           {{card.company}}
         </h2>
-      </div>  
+      </div>
   </div>
-  
+
     <div class="hero-foot">
         <div class="tabs is-fullwidth">
           <ul>
@@ -52,5 +54,5 @@
           </ul>
         </div>
     </div>
-    
+
   </section>
