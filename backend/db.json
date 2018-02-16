@@ -6,7 +6,8 @@
       "title": "Unsere Vision einer neuen Arbeitswelt",
       "title_img": "news_head_1.jpg",
       "company": "Microsoft",
-      "logo": "logo_1.png"
+      "logo": "logo_1.png",
+      "detail_html": "<p>Mit der Digitalisierung erleben wir den größten Wandel der Arbeitswelt seit der industriellen Revolution. Etablierte Konzepte werden auf den Kopf gestellt, Raum und Zeit erleben eine Emanzipation von bestehenden Werten. Mobile Arbeit und das Home Office sind an vielen Stellen selbstverständlich geworden, Cafés oder Co-Working-Spaces werden schon lange nicht mehr nur von Digitalen Nomaden und Freelancern genutzt. Die Arbeit, Seite an Seite mit schlauen Maschinen und digitalen Assistenten steht uns kurz bevor. Unsere Welt wächst mehr und mehr wie ein einziges Netzwerk zusammen, geprägt von Kollaboration, kreativer Verknüpfung, interdisziplinärer Teamarbeit und neuen Denkmustern.</p><p><img src="https://ncmedia.azureedge.net/ncmedia/2016/10/STB13_Jason_14.jpg" alt="stb13_jason_14"  /></p><p>Eine neue Generation von Wissensarbeitern bringt einen neuen Anspruch an die Arbeitswelt mit, der von Flexibilität, Selbstbestimmung und persönlicher Entfaltung bei maximaler Sicherheit untermauert ist. Arbeitnehmer und Arbeitgeber diskutieren über Jobsharing, die 4-Tage-Woche und transparente Gehälter. Der Kampf um die besten Talente hat begonnen. Die Frage, ob Arbeit, der Ort und die Kollegen, mit denen ich gerade arbeite, Spaß machen, ist heute wichtiger denn je. Arbeit ist keine lästige Pflicht mehr, sondern eine Selbstentfaltung. Die Logik des Arbeitsmarktes kehrt sich um und firmiert unter dem Slogan „Jobs follow People“. Starre Hierarchien und ein aussterbender Führungsstil werden zum Bremsklotz, ehrgeizige Einzelkämpfer sowie eine vorherrschende Expertenkultur haben schlichtweg ausgedient. Offenen Plattformen und evolutionären Organisationsformen gehören die Zukunft – und doch können wir nicht voraussagen, wie die Arbeitswelt 2030 aussehen wird. Wie wollen wir leben und arbeiten? Wie sieht die Zukunft der Wissensarbeit aus? Wird es keine Chefs mehr geben? Und müssen wir uns nicht nur den Schreibtisch, sondern auch den Arbeitsmarkt mit Kollege Roboter teilen?</p>"
     },
     {
       "id": 2,
@@ -14,7 +15,8 @@
       "title": "Tag der Jogginghose: Wer kauft sie? Wer zahlt wie viel?",
       "title_img": "news_head_2.jpg",
       "company": "OTTO",
-      "logo": "logo_2.png"
+      "logo": "logo_2.png",
+      "detail_html": "<p>kommt noch ...</p>"
     },
     {
       "id": 3,
@@ -22,7 +24,8 @@
       "title": "Wir sehen beeindruckende Fortschritte in der Krebsforschung",
       "title_img": "news_head_3.jpg",
       "company": "pfizer",
-      "logo": "logo_3.png"
+      "logo": "logo_3.png",
+      "detail_html": "<p><b>Pfizer setzt sich dafür ein, Bewusstsein für Erkrankungen zu  schaffen, die nur wenig beachtet werden. In der Krebsmedizin gehören  dazu seltene Erkrankungen wie Nierenkrebs, aber selbst bei weit  verbreiteten und viel diskutierten Krebsarten wie Brustkrebs gibt es  Aufmerksamkeits- und Wissensdefizite…. Oder was wissen Sie über  fortgeschrittenen, metastasierten Brustkrebs?</b></p><p>Dr. Carolin Guenzel ist Mikrobiologin und arbeitet seit drei  Jahren bei Pfizer. Als Medical Advisor ist sie für alle medizinischen  Fragen zu metastasiertem Brustkrebs zuständig. Im Interview gibt sie  Einblicke in die vergessene Seite einer viel beachteten Erkrankung.</p><p>Von den rund 70 000 Menschen pro Jahr, bei denen in Deutschland eine  Brustkrebserkrankung diagnostiziert wird, haben die meisten einen  sogenannten frühen Brustkrebs. Bei ihnen lässt sich der Tumor eindeutig  in der Brust lokalisieren und kann mit ziemlich hoher Heilungschance  behandelt werden. Von metastasiertem Brustkrebs spricht man dagegen,  wenn sich der Krebs von der Brust aus ausgebreitet hat, wenn andere  Körperbereiche und Organe mit Metastasen befallen sind. Das ist für die  Patientinnen und für die behandelnden Ärzte eine komplett andere  Situation. In diesem Stadium geht es in der Behandlung vor allem darum,  dass die Patientinnen mit der Erkrankung möglichst lange und normal bei  guter Lebensqualität weiterleben können.<b><br /><br />Warum wird so viel über Brustkrebs gesprochen, aber so wenig über die fortgeschrittene Form der Erkrankung?</b><br /><br />Eine  gute Frage. Es ist schon erstaunlich, dass Brustkrebs im frühen Stadium  in der öffentlichen Wahrnehmung sehr präsent ist, fortgeschrittener  Brustkrebs dagegen so gut wie gar nicht. Und das obwohl bei etwa 30  Prozent aller Brustkrebspatientinnen nach erfolgreicher Erstbehandlung  die Erkrankung in einer fortgeschrittenen Form wieder auftritt. Über die  Gründe kann man nur spekulieren. Eventuell liegt es daran, dass  Brustkrebs heute sehr erfolgreich behandelt und in den meisten Fällen  sogar geheilt werden kann, wenn er rechtzeitig erkannt wird. Hier gibt  es viele hoffnungsvolle Beispiele von Frauen, die die Erkrankung gut  überstanden haben. Bei metastasiertem Brustkrebs ist Heilung in der  Regel nicht möglich und es gab lange Zeit kaum Therapiefortschritte.  Über diese Seite der Erkrankung fällt es vielen Menschen schwerer zu  reden. </p>"
     }
   ],
   "profile": {
