@@ -3,6 +3,12 @@
 }
 
 .level {
+    height: 50px;
+    background-color: #1D272E;
+    padding: 5px;
+}
+
+.level {
     background-color: #1D272E;
 }
 
