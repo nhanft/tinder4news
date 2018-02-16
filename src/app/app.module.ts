@@ -4,6 +4,7 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
+import { CardComponent } from './card/card.component';
 import { AppRoutingModule } from './app-routing.module';
 
 import { SettingsComponent } from './settings/settings.component';
@@ -12,6 +13,8 @@ import { SettingsComponent } from './settings/settings.component';
   declarations: [
     AppComponent,
     SettingsComponent
+    AppComponent,
+    CardComponent
   ],
   imports: [
     BrowserModule,
