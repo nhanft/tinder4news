@@ -13,6 +13,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { StartComponent } from './start/start.component';
 import { SettingsComponent } from './settings/settings.component';
 import { NewsComponent } from './news/news.component';
+import { NewsDetailsComponent } from './news-details/news-details.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 
@@ -23,6 +24,7 @@ import { FooterComponent } from './footer/footer.component';
     StartComponent,
     SettingsComponent,
     NewsComponent,
+    NewsDetailsComponent,
     HeaderComponent,
     FooterComponent
   ],
