@@ -1,8 +1,15 @@
-<h1>
-  Ich werde der Startbildschirm.
-</h1>
+<section class="hero is-fullheight" style="background-color: #00B8B6;">
 
-<ul>
-  <li><a [routerLink]="['/news/', 1]">News Nr.1</a></li>
-  <li><a [routerLink]="['/settings/']">Settings</a></li>
-</ul>
+  <div class="hero-body"
+       [ngStyle]="{'background-image': 'url(/assets/img/start_finder.png)', 'background-repeat': 'no-repeat'}">
+    <div class="container" (click)="startApp()">
+      <div id="starttext">
+        <p>Falls Sie noch nicht Kunde sind, <br>
+          <a href="#">registrieren</a> Sie sich hier.
+        </p>
+      </div>
+
+    </div>
+  </div>
+
+</section>

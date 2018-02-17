@@ -1,4 +1,16 @@
 /* You can add global styles to this file, and also import other style files */
+
+#starttext {
+  padding-top: 380px;
+  color: #FFF;
+  text-align: center;
+  font-size: 0.9em;
+}
+#starttext a {
+  color: #e0e0e0;
+  text-decoration: underline;
+}
+
 .hero {
   background-color: #1D272E;
 }
