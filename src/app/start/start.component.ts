@@ -16,7 +16,7 @@ export class StartComponent implements OnInit {
   }
 
   startApp() {
-    this.router.navigate(['/news']);
+    this.router.navigate(['/news', 1]);
 
   }
 
