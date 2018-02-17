@@ -3,11 +3,12 @@
   <app-header></app-header>
 
   <div *ngIf="card"
-       class="hero-body">
+       class="hero-body" style="padding: 24px;">
     <div class="container">
-
+      <img class="image" src="/assets/img/video_teaser.png">
+      <br>
+      <h2 class="title" style="color: white;">{{card.title}}</h2>
       <div [innerHTML]="card.detail_html"></div>
-
     </div>
   </div>
 
