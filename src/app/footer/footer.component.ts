@@ -17,7 +17,7 @@ export class FooterComponent implements OnInit {
   }
 
   goToDetails(){
-    this.router.navigate(['/news/3/details');
+    this.router.navigate(['/news/3/details']);
   }
 
 }

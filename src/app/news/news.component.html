@@ -11,10 +11,10 @@
        (swipeleft)="startAnimation('slideOutLeft')"
        [ngStyle]="{'background-image': 'url(/assets/img/' + card.title_img + ')', 'background-repeat': 'no-repeat'}">
       <div class="container pulled-down">
-        <h1 class="title">
+        <h1 class="title" style="position: absolute; top:275px;">
           {{card.title}}
         </h1>
-        <h2 class="subtitle">
+        <h2 class="subtitle" style="position: absolute; top:440px;">
           {{card.company}}
         </h2>
       </div>
