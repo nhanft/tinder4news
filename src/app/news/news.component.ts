@@ -1,8 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { NewsService} from '../news.service';
 import { ActivatedRoute } from '@angular/router';
-import { Router } from '@angular/router';
-
 import { trigger, keyframes, animate, transition } from '@angular/animations';
 import * as kf from './keyframes';
 
@@ -29,7 +27,6 @@ export class NewsComponent implements OnInit {
   public card:any;
 
   constructor(
-    private router: Router,
     private newsService: NewsService,
     private activatedRoute: ActivatedRoute
   ) {}
